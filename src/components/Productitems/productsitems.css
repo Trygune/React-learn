@@ -1,7 +1,0 @@
-.productitem{
-    opacity: 0;
-    transition-duration: 0.8s;
-}
-.productitem.visible{
-    opacity: 1;
-}

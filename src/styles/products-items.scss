@@ -1,0 +1,19 @@
+.productitem {
+    opacity: 0;
+    transition-duration: 0.8s;
+
+    &.visible {
+        opacity: 1;
+    }
+
+    button {
+        &:hover {
+            background-color: whitesmoke;
+            border-color: red !important;
+            color: red !important;
+        }
+        &.added{
+            background-color: pink;
+        }
+    }
+}

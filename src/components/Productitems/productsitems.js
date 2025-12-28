@@ -1,12 +1,12 @@
 import React, { useContext, useEffect, useRef } from 'react';
-import Button from '../BTN/Button';
-import Image from '../image/image';
-import './productsitems.css';
-import ThemeContext from '../../Contexts/Themecontext';
-import cartcontext from '../../Contexts/cartcontext';
+import '../../styles/products-items.scss';
 import { MdAdd, MdOutlineRemoveShoppingCart } from 'react-icons/md';
 import { Link } from 'react-router-dom';
+import ThemeContext from '../../Contexts/Themecontext';
+import cartcontext from '../../Contexts/cartcontext';
 import { PROJECT_URL } from '../../Configs/general';
+import Image from '../image/image';
+import Button from '../BTN/Button';
 // import productreducer from "../../reducers/Productitems.reducer";
 
 function Productsitem({ data }) {
@@ -63,6 +63,7 @@ function Productsitem({ data }) {
                 borderColor: themeValue.theme.color,
               }
             }
+        className={cartadded ? 'added' : ''}
       >
         {cartadded ? (
           <>

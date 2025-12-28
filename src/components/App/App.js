@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import './App.css';
+import './App.scss';
 import {
   BrowserRouter,
   Route,
@@ -14,6 +14,7 @@ import Blog from '../Blog/Blog';
 import ThemeContext from '../../Contexts/Themecontext';
 import themeconfig from '../../Configs/theme';
 import Singleproducts from '../Singleproduct/Singleproducts';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [activetheme, setactivetheme] = useState('green');
