@@ -1,25 +1,25 @@
 [{
         "id": "prd_9f3a7c21-b84e-4d91-a2f7-8c4e12a9d301",
         "name": "Aurora Mechanical Keyboard",
-        "image":"1.png",
+        "image":"https://dummyimage.com/200x100/000/fff",
         "price": 129.99
     },
     {
         "id": "prd_2c8d41fe-6a9b-47e0-9f12-7b3e94c1aa56",
         "name": "Nebula Wireless Mouse",
-        "image":"2.png",
+        "image":"https://dummyimage.com/200x100/eee/aaa",
         "price": 49.5
     },
     {
         "id": "prd_6e4f90b2-1c7d-4caa-bb38-92d5f84a7e19",
         "name": "Pulse Noise-Canceling Headphones",
-        "image":"3.png",
+        "image":"https://dummyimage.com/200x100/abab/000",
         "price": 199.0
     },
     {
         "id": "prd_a13d8c6f-54e1-49a6-9e7d-0fbc72a451d8",
         "name": "Nova USB-C Docking Station",
-        "image":"4.png",
+        "image":"https://dummyimage.com/200x100/eaea/abab",
         "price": 89.99
     }
 ]

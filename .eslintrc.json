@@ -20,6 +20,8 @@
     "react"
   ],
   "rules": {
+    "no-unused-vars": "warn",
+    "react/jsx-no-constructed-context-values": "warn",
     "linebreak-style": 0,
     "no-console": "warn",
     "react/prop-types": "off",
