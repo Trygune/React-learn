@@ -1,0 +1,29 @@
+.navbar {
+    padding: 1px;
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    width: 75%;
+}
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar button {
+    font-family: monospace;
+    font-weight: 200;
+    font-size: large;
+    width: auto;
+    border: 0;
+    padding: 15px;
+    background-color: transparent;
+    margin: 1px;
+    color: gray;
+    border-radius: 10px;
+}
+.navbar button:hover {
+    background-color: whitesmoke;
+    color: red;
+}

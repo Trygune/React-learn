@@ -1,0 +1,9 @@
+input, textarea{
+    width: 95%;
+    padding: 5px;
+    margin: 8px auto;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 4px;
+}

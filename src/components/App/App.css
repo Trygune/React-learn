@@ -1,0 +1,73 @@
+.App {
+  direction: ltr;
+  text-align: left;
+  padding: 25px;
+}
+
+.headings {
+  font-size: 30px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.products {
+  list-style: decimal;
+  display: block;
+  columns: 2;
+}
+.products h4{
+  display: inline-block;
+}
+
+.products img {
+  display: block;
+  margin-bottom: 15px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid green;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: transparent;
+  box-shadow: none;
+  width: 150px;
+  cursor: pointer;
+}
+
+button:hover {
+  border-radius: 5px;
+  transform: translateY(-2px);
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.185);
+  transition: all 0.1s ease-in-out;
+}
+.Blog {
+  padding: 15px 30px 20px 0;
+  margin: 20px 0;
+  box-shadow: -3px 3px 10px 0 rgba(0, 0, 0, 0.329);
+  box-sizing: border-box;
+}
+.blogpage li{
+  list-style: none;
+  margin: 5px;
+}
+.blogpage button{
+  width: 50px;
+}
+.blogpage ul{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+li.active button{
+  background-color: green;
+  color: white;
+}

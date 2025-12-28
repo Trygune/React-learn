@@ -1,0 +1,16 @@
+.Header{
+    padding: 10px;
+    border: 2px dashed #eee;
+    margin-bottom: 10px;
+}
+
+.cart{
+    min-width: 20%;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: center;
+}
+.cart h4{
+    padding: 2px;
+}

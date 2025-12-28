@@ -1,0 +1,11 @@
+.blogitem{
+    animation-name: fade-in;
+    animation-duration: 1s;
+    width: 100%;
+}
+
+@keyframes fade-in {
+    0% {margin-left: -100%;}
+    40% {margin-left: 10%;}
+    100% {margin-left: 0;}
+}

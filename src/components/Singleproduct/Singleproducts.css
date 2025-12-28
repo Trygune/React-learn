@@ -1,0 +1,13 @@
+.thisprod{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+.thisprod button{
+    width: 40%;
+    height: 55px;
+    font-size: large;
+}
+.thisprod img{
+    width: 50%;
+}

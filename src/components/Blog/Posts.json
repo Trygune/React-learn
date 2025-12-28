@@ -1,0 +1,26 @@
+[
+    {
+      "id": "post_8f2c91a4-d7b6-4a23-9e18-4c2b7f9a0e11-acdea91f",
+      "title": "The Quiet Power of Asynchronous Thinking",
+      "content": "Asynchronous thinking allows ideas to mature without the pressure of immediate response. In software development and creative work alike, stepping away from real-time constraints often leads to deeper insights, cleaner abstractions, and more resilient solutions.",
+      "image": "https://dummyimage.com/230x144/000/fff"
+    },
+    {
+      "id": "post_3b7e2d90-5c41-4f88-a1c9-9e0f2a6d7c55-acdeb203",
+      "title": "Why Simple Systems Scale Better Than Clever Ones",
+      "content": "Clever systems impress at first glance, but simplicity survives contact with reality. Systems built from small, understandable parts are easier to debug, extend, and reason about, especially as teams and user bases grow.",
+      "image": "https://dummyimage.com/230x144/111/eee"
+    },
+    {
+      "id": "post_91d4a6c8-2f3e-4a9b-b2e7-7a1f5c8d0e44-acdec317",
+      "title": "Latency Is a Design Problem, Not Just a Network Issue",
+      "content": "When users complain about slowness, the root cause is often design, not bandwidth. Thoughtful loading strategies, optimistic UI patterns, and sensible defaults can make applications feel fast even under imperfect conditions.",
+      "image": "https://dummyimage.com/230x144/222/ddd"
+    },
+    {
+      "id": "post_c4e1b9a0-6d28-49fa-8c3e-0b7a9d2f1e66-acdea889",
+      "title": "The Hidden Cost of Over-Engineering",
+      "content": "Over-engineering usually starts with good intentions but ends with fragile complexity. Every additional abstraction has a maintenance cost, and unless it pays rent immediately, it may become tomorrow’s technical debt.",
+      "image": "https://dummyimage.com/230x144/333/ccc"
+    }
+]
