@@ -6,7 +6,7 @@ import ThemeContext from '../../Contexts/Themecontext';
 import cartcontext from '../../Contexts/cartcontext';
 import { PROJECT_URL } from '../../Configs/general';
 import Image from '../image/image';
-import Button from '../BTN/Button';
+import Buttoncomp from '../BTN/Button';
 // import productreducer from "../../reducers/Productitems.reducer";
 
 function Productsitem({ data }) {
@@ -55,12 +55,14 @@ function Productsitem({ data }) {
         {' '}
         {data.price}
       </span>
-      <Button
+      <Buttoncomp
         handleclick={handleadd}
         style={
               {
                 color: themeValue.theme.color,
                 borderColor: themeValue.theme.color,
+                display: 'flex',
+                margin: '10px 0',
               }
             }
         className={cartadded ? 'added' : ''}
@@ -77,7 +79,7 @@ function Productsitem({ data }) {
               Add to Cart
             </>
           )}
-      </Button>
+      </Buttoncomp>
     </li>
   );
 }

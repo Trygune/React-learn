@@ -1,4 +1,4 @@
-.navbar {
+.navbarcomp {
     padding: 1px;
     display: inline-flex;
     justify-content: start;
@@ -7,11 +7,11 @@
     text-decoration: none;
     width: 75%;
 }
-.navbar a{
+.navbarcomp a{
     text-decoration: none;
 }
 
-.navbar button {
+.navbarcomp button {
     font-family: monospace;
     font-weight: 200;
     font-size: large;
@@ -23,7 +23,7 @@
     color: gray;
     border-radius: 10px;
 }
-.navbar button:hover {
+.navbarcomp button:hover {
     background-color: whitesmoke;
     color: red;
 }

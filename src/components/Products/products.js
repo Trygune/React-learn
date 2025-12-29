@@ -1,17 +1,24 @@
-import React from "react";
-import Productitems from "../Productitems/productsitems";
+import React from 'react';
+import Productitems from '../Productitems/productsitems';
+import SimpleSlider from '../Slideshow/Slideshow';
 
-const Product =(props)=>{
-    console.log(props);
-    // const {info}=props
-    return (        
-    <ul className='products'>
-          {props.info.map((item)=>(
-            <Productitems key={item.id}
-                data={item}
-            />
+function Product(props) {
+  console.log(props);
+  // const {info}=props
+  return (
+    <>
+      <SimpleSlider />
+      <ul className="products">
+        {props.info.map((item) => (
+          <Productitems
+            key={item.id}
+            data={item}
+          />
         ))}
-        </ul>)
+      </ul>
+      <br />
+    </>
+  );
 }
 
-export default Product
+export default Product;

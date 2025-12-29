@@ -1,31 +1,33 @@
-import React from "react";
-import './Nav.css'
-import Button from "../BTN/Button";
-import { Link } from "react-router-dom";
+import React from 'react';
+import './Nav.css';
+import { Link } from 'react-router-dom';
+import Buttoncomp from '../BTN/Button';
 
-const Nav=()=>(
-    <ul className="navbar">
-        <li>
-            <Link to='/'>
-                <Button>Shop</Button>
-            </Link>
-        </li>
-        <li>
-            <Link to='/about'>
-                <Button>About</Button>
-            </Link>
-        </li>
-        <li>
-            <Link to='/contact'>
-                <Button>Contact</Button>
-            </Link>    
-        </li>
-        <li>
-            <Link to='/blog'>
-                <Button>Blog</Button>
-            </Link>    
-        </li>
+function Nav() {
+  return (
+    <ul className="navbarcomp">
+      <li>
+        <Link to="/">
+          <Buttoncomp>Shop</Buttoncomp>
+        </Link>
+      </li>
+      <li>
+        <Link to="/about">
+          <Buttoncomp>About</Buttoncomp>
+        </Link>
+      </li>
+      <li>
+        <Link to="/contact">
+          <Buttoncomp>Contact</Buttoncomp>
+        </Link>
+      </li>
+      <li>
+        <Link to="/blog">
+          <Buttoncomp>Blog</Buttoncomp>
+        </Link>
+      </li>
     </ul>
-)
+  );
+}
 
-export default Nav
+export default Nav;
